@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="simple implementation">
+    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="simple implementation for api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/Body.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/WebScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/WebScrapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +89,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703762608343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="simple implementation for api">
+      <option name="closed" value="true" />
+      <created>1703764427270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703764427270</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple implementation" />
+    <MESSAGE value="simple implementation for api" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple implementation for api" />
   </component>
 </project>
