@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="some bug fix">
-      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/A_Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/P_Tag.java" afterDir="false" />
-    </list>
+    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="Adding some more tags" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703765376445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding some more tags">
+      <option name="closed" value="true" />
+      <created>1703765843426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703765843426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +124,7 @@
     <MESSAGE value="simple implementation for api" />
     <MESSAGE value="simple working state of this WebScrapper" />
     <MESSAGE value="some bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="some bug fix" />
+    <MESSAGE value="Adding some more tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some more tags" />
   </component>
 </project>
