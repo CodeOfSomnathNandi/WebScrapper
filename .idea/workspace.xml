@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="simple implementation for api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/WebScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/WebScrapper.java" afterDir="false" />
+    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="some bug fix">
+      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/A_Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/P_Tag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,12 +95,30 @@
       <option name="project" value="LOCAL" />
       <updated>1703764427270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="simple working state of this WebScrapper">
+      <option name="closed" value="true" />
+      <created>1703765226510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703765226510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some bug fix">
+      <option name="closed" value="true" />
+      <created>1703765376445</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703765376445</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple implementation" />
     <MESSAGE value="simple implementation for api" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple implementation for api" />
+    <MESSAGE value="simple working state of this WebScrapper" />
+    <MESSAGE value="some bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="some bug fix" />
   </component>
 </project>
