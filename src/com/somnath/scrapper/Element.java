@@ -1,6 +1,7 @@
 package com.somnath.scrapper;
 
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class Element {
     private ArrayList<Element> childs;
@@ -12,17 +13,31 @@ public class Element {
         this.content = content;
     }
 
+    private int matchFounder(int startIndex, String s) {
+        String currentContent = content.substring(startIndex);
+        int index = currentContent.indexOf(s);
+        if (index == -1) {
+            return -1;
+        }
+        return startIndex+index;
+    }
+
     public String innerHtml() {
-        String tagStarting = String.format("<%s>", this.elementName);
-        String tagEnding = String.format("</%s>", this.elementName);
+        String tagStarting = String.format("%s", this.elementName);
+        String tagEnding = String.format("/%s", this.elementName);
         int startIndex = content.indexOf(tagStarting) + tagStarting.length();
-        int endIndex = content.indexOf(tagEnding);
+        startIndex = matchFounder(startIndex, ">") +1;
+        int endIndex = content.indexOf(tagEnding) -1;
         if (startIndex != -1 && endIndex != -1) {
             return content.substring(startIndex, endIndex);
         }
         return "";
     }
     public String innerText() {
+        String html = innerHtml();
+        if (!html.contains("</")) {
+            return html;
+        }
         return "";
     }
 

@@ -1,7 +1,8 @@
+import com.somnath.scrapper.Element;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
-        String name = "Somnath";
-        System.out.println(name.indexOf("na"));
+        Element element = new Element("body", "<body key=value> hello<html>html</html> </body>");
+        System.out.println(element.innerHtml());
     }
 }
