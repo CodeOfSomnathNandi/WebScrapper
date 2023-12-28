@@ -1,4 +1,3 @@
-import com.somnath.scrapper.Document;
 import com.somnath.scrapper.WebScrapper;
 
 import java.io.IOException;

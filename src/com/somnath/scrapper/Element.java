@@ -1,13 +1,16 @@
 package com.somnath.scrapper;
 
 import java.util.ArrayList;
-import java.util.regex.Pattern;
 
 public class Element {
     private ArrayList<Element> childs;
     private ArrayList<ElementAttributes> attributes;
     private String elementName;
     private String content;
+
+    // all tags
+
+
     public Element(String elementName, String content) {
         this.elementName = elementName;
         this.content = content;
@@ -56,5 +59,7 @@ public class Element {
     public void setAttribute(String key, String value) {
 
     }
+
+
 
 }
