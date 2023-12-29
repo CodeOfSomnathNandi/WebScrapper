@@ -2,7 +2,6 @@ package com.somnath.scrapper.tags;
 
 import com.somnath.scrapper.attributes.BodyAttributes;
 import com.somnath.scrapper.core.Element;
-import com.somnath.scrapper.core.ElementAttributes;
 
 public class Body extends Element {
     public Body(String content) {

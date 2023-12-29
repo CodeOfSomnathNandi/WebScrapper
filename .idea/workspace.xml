@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="adding implementation for tags">
-      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/attributes/BodyAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/core/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/core/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/core/ElementAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/core/ElementAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/A_Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/A_Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/Body.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,5 +183,16 @@
     <MESSAGE value="changing project structure" />
     <MESSAGE value="adding implementation for tags" />
     <option name="LAST_COMMIT_MESSAGE" value="adding implementation for tags" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

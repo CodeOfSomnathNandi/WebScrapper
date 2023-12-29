@@ -29,13 +29,11 @@ public class Element {
                 startRange = count;
                 isNotMatchFound = false;
             }
-            System.out.println(count);
             count--;
         }
 
         count = endIndex;
         isNotMatchFound = true;
-        System.out.println(count);
         while (isNotMatchFound) {
             if (content.charAt(count) == '>') {
                 endRange = count;
