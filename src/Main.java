@@ -1,4 +1,5 @@
 import com.somnath.scrapper.WebScrapper;
+import com.somnath.scrapper.tags.A_Tag;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

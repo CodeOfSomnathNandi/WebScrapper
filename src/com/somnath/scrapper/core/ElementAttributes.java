@@ -59,11 +59,14 @@ public class ElementAttributes {
 
     public String findAttribute(String attr) {
         int rangeIndex = content.indexOf(attr);
+        if (rangeIndex == -1) {
+            return "";
+        }
         String range = content.substring(rangeIndex);
         int startIndex = range.indexOf("\"");
-        int endIndex = startIndex+ 1 + range.substring(startIndex+1).indexOf("\"");
+        int endIndex =   range.substring(startIndex+1).indexOf("\"");
         if (startIndex != -1 && endIndex != -1) {
-            return range.substring(startIndex, endIndex);
+            return range.substring(startIndex+1, endIndex+startIndex+1);
         }
         return "";
     }

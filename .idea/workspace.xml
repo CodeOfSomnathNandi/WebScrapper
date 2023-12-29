@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="Adding README.MD and updating workspace.xml">
+    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="adding implementation for tags">
+      <change afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/attributes/BodyAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/core/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/core/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/core/ElementAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/core/ElementAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/A_Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/A_Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/somnath/scrapper/tags/Body.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +135,47 @@
       <option name="project" value="LOCAL" />
       <updated>1703766018802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changing project structure">
+      <option name="closed" value="true" />
+      <created>1703850573143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703850573143</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changing project structure">
+      <option name="closed" value="true" />
+      <created>1703850665959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703850665959</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changing project structure">
+      <option name="closed" value="true" />
+      <created>1703850716026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703850716026</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding implementation for tags">
+      <option name="closed" value="true" />
+      <created>1703854177069</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703854177069</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding implementation for tags">
+      <option name="closed" value="true" />
+      <created>1703854268408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703854268408</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +185,8 @@
     <MESSAGE value="some bug fix" />
     <MESSAGE value="Adding some more tags" />
     <MESSAGE value="Adding README.MD and updating workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding README.MD and updating workspace.xml" />
+    <MESSAGE value="changing project structure" />
+    <MESSAGE value="adding implementation for tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding implementation for tags" />
   </component>
 </project>
