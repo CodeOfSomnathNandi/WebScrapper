@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="Adding some more tags" />
+    <list default="true" id="1048ff04-ade1-4f23-8e34-274f5a0b6909" name="Changes" comment="Adding README.MD and updating workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -116,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703765843426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding README.MD and updating workspace.xml">
+      <option name="closed" value="true" />
+      <created>1703766018802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703766018802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +138,7 @@
     <MESSAGE value="simple working state of this WebScrapper" />
     <MESSAGE value="some bug fix" />
     <MESSAGE value="Adding some more tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some more tags" />
+    <MESSAGE value="Adding README.MD and updating workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding README.MD and updating workspace.xml" />
   </component>
 </project>

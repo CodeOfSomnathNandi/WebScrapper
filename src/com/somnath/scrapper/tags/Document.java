@@ -1,4 +1,6 @@
-package com.somnath.scrapper;
+package com.somnath.scrapper.tags;
+
+import com.somnath.scrapper.Element;
 
 public class Document extends Element {
     private final Body body;

@@ -1,5 +1,7 @@
 package com.somnath.scrapper;
 
+import com.somnath.scrapper.tags.Document;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
