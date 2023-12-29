@@ -58,7 +58,7 @@ public class Element {
         setContentHtml();
     }
 
-    private int matchFounder(int startIndex, String s) {
+    public int matchFounder(int startIndex, String s) {
         String currentContent = content.substring(startIndex);
         int index = currentContent.indexOf(s);
         if (index == -1) {

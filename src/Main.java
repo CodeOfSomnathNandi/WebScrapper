@@ -9,8 +9,9 @@ public class Main {
         String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
         WebScrapper scrapper = new WebScrapper(url);
 //        System.out.println(scrapper.getDocument().getHtml().innerHtml());
-        var body = scrapper.getDocument().getBody().innerHtml();
-        A_Tag a = new A_Tag(body);
-        System.out.println("attr"+ a.getAttributes().getHref());
+        var body = scrapper.getDocument().getBody();
+        for (A_Tag tag : body.getaTags()) {
+            System.out.println(tag.getAttributes().getHref());
+        }
     }
 }
