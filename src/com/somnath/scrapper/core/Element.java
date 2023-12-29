@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class Element {
     private ArrayList<Element> childs;
-    private ArrayList<ElementAttributes> attributes;
+    private ElementAttributes attributes;
     private String elementName;
     private String content;
 
-    // all tags
+
+// all tags
 
 
     public Element(String elementName, String content) {
@@ -52,14 +53,16 @@ public class Element {
         this.childs.add(child);
     }
 
-    public ArrayList<ElementAttributes> getAttributes() {
+    public ElementAttributes getAttributes() {
         return attributes;
     }
 
-    public void setAttribute(String key, String value) {
-
+    public void setChilds(ArrayList<Element> childs) {
+        this.childs = childs;
     }
 
-
+    public void setAttributes(ElementAttributes attributes) {
+        this.attributes = attributes;
+    }
 
 }
