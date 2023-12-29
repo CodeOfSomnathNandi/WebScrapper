@@ -1,7 +1,5 @@
 package com.somnath.scrapper.core;
 
-import com.somnath.scrapper.attributes.ElementAttributes;
-
 import java.util.ArrayList;
 
 public class Element {

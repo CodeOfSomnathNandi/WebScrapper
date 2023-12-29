@@ -1,4 +1,4 @@
-package com.somnath.scrapper.attributes;
+package com.somnath.scrapper.core;
 
 /**
  * This is class contains normal implementation for element attributes
