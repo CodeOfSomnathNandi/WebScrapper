@@ -1,4 +1,4 @@
-package com.somnath.scrapper;
+package com.somnath.scrapper.core;
 
 import com.somnath.scrapper.attributes.ElementAttributes;
 
